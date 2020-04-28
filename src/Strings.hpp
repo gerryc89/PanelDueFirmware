@@ -17,7 +17,7 @@
 #define Newline			"\n"
 #define DegreeSymbol	"\u00B0"
 
-constexpr unsigned int NumLanguages = 5;
+constexpr unsigned int NumLanguages = 6;
 constexpr unsigned int NumStatusStrings = 13;
 
 struct StringTable
@@ -222,6 +222,117 @@ const StringTable LanguageTables[NumLanguages] =
 		}
  	},
 
+	// Italian
+	{
+		// ISO-639.1 language code
+		"it",
+
+		// Main page strings
+		"Controllo",
+		"Stampa",
+		"Terminale",
+		"Impostazioni",
+		"Attuale" THIN_SPACE DEGREE_SYMBOL "C",
+		"Attivo" THIN_SPACE DEGREE_SYMBOL "C",
+		"Riposo" THIN_SPACE DEGREE_SYMBOL "C",
+		"Muovi",
+		"Estrudi",
+		"Macro",
+		"FERMA",
+
+		// Print page
+		"Estrus." THIN_SPACE "%",
+		"Velocita ",                      // note space at end
+		"Ventola ",                       // note space at end
+		"Tempo rest.: ",
+		"file ",                          // note space at end
+		", filamento ",                   // note space at end
+		", strato ",                      // note space at end
+		"n/a",
+		"Pausa",
+		"Semi-step",
+		"Riprendi",
+		"Cancella",
+		"Imposta",
+
+		// Setup page
+		"Volume ",                        // note space at end
+		"Calibra touch",
+		"Rifletti schermo",
+		"Inverti schermo",
+		"Tema",
+		"Luminosita -",
+		"Luminosita +",
+		"Salva impost.",
+		"Cancella impost.",
+		"Salva e Riavvia",
+		"Timeout info ",                  // note space at end
+
+		// Misc
+		"Conferma reset di fabbrica",
+		"Conferma cancella file",
+		"Sei sicuro?",
+		"Tocca il punto",
+		"Muovi testa",
+		"Quantita estrusione (mm)",
+		"Velocita (mm/s)",
+		"Estrudi",
+		"Ritrai",
+		"Semi-stepping",
+		"Z offset corrente: ",
+		"Messaggio",
+		"Messaggi",
+		"Panel Due versione firmware ",   // note space at end
+		"Risposta",
+
+		// File popup
+		"File su scheda SD ",             // note the space on the end
+		"Macro",
+		"Errore ",                        // note the space at the end
+		" accesso scheda SD",             // note the space at the start
+		"Nome File: ",
+		"Dimensione: ",
+		"Altezza strato: ",
+		"Altezza oggetto: ",
+		"Filamento richiesto: ",
+		"Generato con: ",
+		"Ultima modifica: ",
+		"Tempo di stampa stimato: ",
+		"Tempo di stampa simulato: ",
+		"Simula",
+
+		// Printer status strings
+		{
+			"In connessione",
+			"Inattivo",
+			"Stampa in corso",
+			"Fermato",
+			"In avvio",
+			"In pausa",
+			"Occupato",
+			"Messa in pausa",
+			"Ripresa in corso",
+			"Caric. Firmware",
+			"Cambio strumento",
+			"In simulazione",
+			"Riposo"
+		},
+
+			// Theme names
+		{
+			"Tema chiaro",
+			"Tema scuro 1",
+			"Tema scuro 2"
+		},
+
+			// Display dimming types
+		{
+			"Non oscurare",
+			"Oscura se inatt.",
+			"Oscura sempre"
+		}
+	},
+			
 	// German
 	{
 		// ISO-639.1 language code
