@@ -1,3 +1,6 @@
+Added italian gui language, binary on /releases
+---------------------------------------------------------------------
+
 1. To get the latest release binaries go to:
 
 https://github.com/dc42/PanelDueFirmware/releases
